@@ -27,3 +27,12 @@ python analisis_oro.py --ticker XAUUSD=X   # oro spot
 El workflow `.github/workflows/reporte-diario.yml` corre de lunes a viernes
 (5:30 p.m. hora de Bogotá), genera el reporte y lo guarda en el repositorio.
 También puede lanzarse a mano desde la pestaña **Actions → Run workflow**.
+
+## Escenarios de entrada
+`escenarios_oro.py` prueba con reglas fijas, sobre velas de 1h de GC=F (unos 2 años), si cada
+escenario tuvo ventaja: ruptura del máximo/mínimo de ayer a favor de la tendencia, retroceso a
+un FVG de 1h a favor de la EMA50, barridas, rango asiático y un control al azar. El resultado
+queda en [`reports/escenarios.md`](reports/escenarios.md), en R (múltiplos del riesgo).
+```bash
+python escenarios_oro.py
+```
