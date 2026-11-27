@@ -9,6 +9,12 @@ Los reportes quedan en [`reports/`](reports/); el más reciente es [`reports/ult
 
 > Es una herramienta de análisis, no da señales de compra/venta ni es asesoría financiera.
 
+## Análisis del diario de trading
+`data/diario.csv` guarda el diario compacto (marzo 2026, XAUUSD) y `analisis_diario.py`
+genera [`reports/analisis_diario.md`](reports/analisis_diario.md): cumplimiento de reglas,
+resultado según plan, número de trades, emoción y VIX, y rachas de días limpios.
+Para añadir sesiones nuevas, agrega filas al CSV y ejecuta `python analisis_diario.py`.
+
 ## Uso local
 ```bash
 pip install -r requirements.txt

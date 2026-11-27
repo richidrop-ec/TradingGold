@@ -1,0 +1,10 @@
+fecha,setup,riesgo,resultado_pct,trades,plan,entrada,stop,gestion,sin_aumento_riesgo,emocion,disparador,exposicion_min,cerro_a_tiempo,confirmacion,ventana,conf_b,max_1_trade,no_movio_stop,vix,nota
+2026-03-15,PSY A FVG,1% y 2%,1.1,3,no,no,si,no,no,rabia,ego,,no,A,no,no,no,si,15-25,
+2026-03-16,PSY A FVG,1% y 2%,,10,no,no,no,no,no,rabia,desespero,,no,A,no,no,no,no,15-25,"cuenta perdida (sin % declarado)"
+2026-03-17,PSY A FVG,1% y 2%,-0.5,6,no,no,no,no,no,urgencia,desespero,,no,A y B,no,no,no,no,15-25,
+2026-03-18,PSY A FVG,1% 2% y 3%,-6.0,9,no,no,no,no,no,urgencia,desespero,,no,A y B,no,no,no,no,15-25,"trades escritos como +9"
+2026-03-23,PSY A FVG,1%,7.5,6,no,si,si,si,si,control,nada,60,no,A y B,no,no,no,si,15-26,
+2026-03-24,PSY A B FVG,<1%,1.7,2,si,si,si,si,si,control,nada,30,si,A y B,si,si,no,si,15-25,
+2026-03-26,PSY A B FVG,1%,-4.4,7,si,si,si,si,no,rabia/ego,,,no,A y B,si,no,no,si,15-25,"25 y 26/03 combinados (3 sesiones)"
+2026-03-30,PSY A B FVG,1%,0.5,4,no,no,si,si,no,FOMO,FOMO,37,no,A y B,no,no,no,si,>25,
+2026-03-31,PSY A B FVG,<1%,1.2,5,no,no,si,si,no,control/confianza,confianza,67,no,A y B,no,no,no,si,>25,
